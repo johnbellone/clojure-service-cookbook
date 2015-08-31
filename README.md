@@ -13,6 +13,7 @@ deploy Clojure services to an instance. The first resource installs
 and configures a Clojure service as a system service. This has an
 advantage of being portable based on the operating systme. The second
 resource allows for easy management of the
-[Java properties configuration format][1].
+[Edn configuration format][1].
 
 [0]: http://blog.vialstudios.com/the-environment-cookbook-pattern
+[1]: https://github.com/edn-format/edn
