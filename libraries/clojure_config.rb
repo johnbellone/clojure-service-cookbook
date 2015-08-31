@@ -7,5 +7,10 @@
 require 'poise'
 
 module ClojureService
-  module
+  module Resource
+    class ClojureConfig < Chef::Resource
+      include Poise(fused: true)
+      provides(:clojure_config)
+    end
+  end
 end
