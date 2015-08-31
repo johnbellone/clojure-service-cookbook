@@ -10,6 +10,6 @@ supports 'centos'
 supports 'redhat'
 supports 'ubuntu'
 
-depends 'java-service'
+depends 'java-service', '~> 1.0'
 depends 'poise', '~> 2.2'
 depends 'poise-service', '~> 1.0'
