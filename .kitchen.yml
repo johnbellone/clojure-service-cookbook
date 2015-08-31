@@ -16,4 +16,4 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[clojure-service::default]
+      - recipe[test-service::default]

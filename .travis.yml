@@ -5,8 +5,7 @@ notifications:
 install:
   - bundle install --retry 3 --without kitchen_vagrant kitchen_cloud
   - bundle exec berks install
-script:
-  - bundle exec rake travis
+script: bundle exec rake travis
 rvm:
   - 2.1
   - 2.2
